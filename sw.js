@@ -3,11 +3,20 @@
    Cache First para assets estáticos, rede para YouTube
    ═══════════════════════════════════════════════════════════════════ */
 
-const CACHE_NAME  = 'cinegraphya-ll-v1';
+const CACHE_NAME  = 'cinegraphya-ll-v2';
 const CACHE_FONTS = 'cinegraphya-fonts-v1';
 
 const PRECACHE = [
   './index.html',
+  './style.css',
+  './app-core.js',
+  './app-episodes.js',
+  './sw-register.js',
+  './rotate-overlay.js',
+  './intro.js',
+  './offline-banner.js',
+  './fullscreen.js',
+  './protection.js',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
